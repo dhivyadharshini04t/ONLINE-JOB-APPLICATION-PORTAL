@@ -1,0 +1,25 @@
+.firstbank-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width:1485px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://img.freepik.com/premium-vector/blue-digital-technology-background-with-white-building-logo-bank_666034-682.jpg");
+  }
+
+  .firstbank-job-details {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .firstbank-job-details h2 {
+    margin-bottom: 10px;
+  }
+  
+  .firstbank-job-details p {
+    margin-bottom: 5px;
+  }

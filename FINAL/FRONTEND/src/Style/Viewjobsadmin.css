@@ -1,0 +1,60 @@
+/* styles.css */
+.appliedtotal1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/premium-photo/keyboard-coffee-smartphone-notebook-color-background-top-view_1286-776.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Viewjobs.css */
+.view-jobs-container {
+    max-width: 800px; /* Adjust max-width as needed */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Set background color for the container */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.page-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.job-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.job-card {
+    background-color: rgba(255, 255, 255, 1); /* Set background color for job card */
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.job-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.job-location,
+.job-type,
+.job-start-date,
+.job-end-date,
+.job-salary {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+}
+ 
+.itu{
+    margin-right: -1500px;
+  }
+  

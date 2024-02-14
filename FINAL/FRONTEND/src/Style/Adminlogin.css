@@ -1,0 +1,119 @@
+/* Login.css */
+
+/* Container for login form */
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/007/385/559/original/flat-design-work-table-1-for-copy-space-in-blue-background-space-for-add-text-announcement-advertisement-massage-and-other-free-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: -85px;
+  }
+  
+  /* Form container */
+  .login-form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  /* Main container */
+  .itsme {
+    margin-right: -1400px;
+  }
+  
+  /* Form labels */
+  .login-form label {
+    margin-bottom: 8px;
+  }
+  
+  /* Form inputs */
+  .login-form input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #0881ad;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  /* Submit button */
+  .login-submit-button,
+  .login-link-button {
+    background-color: #60A3D9;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Hover effect on buttons */
+  .login-submit-button:hover,
+  .login-link-button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Error message */
+  .login-error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  /* Success message */
+  .login-success-message {
+    color: green;
+    margin-top: 10px;
+  }
+  
+  /* Content alignment */
+  .login-content {
+    text-align: center;
+  }
+  
+  /* Form alignment */
+  .login-form {
+    margin-bottom: 20px;
+  }
+  
+  /* Input field alignment */
+  .login-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  /* Label alignment */
+  .input-label {
+    margin-bottom: 10px;
+   
+  }
+  
+  /* Button style */
+  .login-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect on button */
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Error message style */
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  

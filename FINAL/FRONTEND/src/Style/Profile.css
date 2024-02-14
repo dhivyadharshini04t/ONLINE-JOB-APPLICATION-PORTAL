@@ -1,0 +1,49 @@
+.farewell-box {
+  justify-content: center;
+  height: 100vh;
+}
+.farewell-form {
+  width: 500px;
+  text-align: center;
+  padding-left: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-left:90px;
+  height:fit-content;
+}
+.farewell-section {
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.farewell-label {
+  display: block;
+  margin-bottom: 8px;
+}
+.farewell-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.farewell-button {
+  padding: 12px;
+  background-color: #14a7f0;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ 
+}
+.farewell-button:hover {
+  background-color:rgb(14, 193, 238);
+}
+.pro{
+  background-color: #60A3D9;
+  height:110vh;
+  width:1500px;
+  margin-bottom: 20px;
+ }

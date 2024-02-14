@@ -1,0 +1,47 @@
+/* Admin Profile Container */
+.admin-profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+
+    padding-right: 100px;
+    padding-left: 500px;
+  }
+  
+  
+  /* Profile Heading */
+  .profile-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Profile Information */
+  .profile-info {
+    background-color: #60A3D9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   
+  }
+  
+  /* Profile Field */
+  .profile-field {
+    margin-bottom: 10px;
+  }
+  
+  /* Field Label */
+  .field-label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  /* Field Value */
+  .field-value {
+    color: #333;
+  }
+  
+  /* Active Status */
+  .field-value.active {
+    color: rgb(220, 240, 220);
+  }
+  
